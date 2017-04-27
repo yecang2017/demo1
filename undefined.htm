@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>building...</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<script >
+	window.onload=function(){var undefineds=document.getElementById("undefineds");
+    var timer2;
+    var j="building";
+	function building(){
+		timer2 = setInterval(function () {
+						j=j+".";
+						if(j=="building...."){
+							j="building."
+						}
+			undefineds.innerHTML=j;
+			},1000);
+	}
+	building();
+    
+}</script>
+</head>
+<body class="body">
+<div id="undefineds">building...</div>
+</body>
+</html>
