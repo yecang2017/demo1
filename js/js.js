@@ -60,7 +60,7 @@ prev.onclick = function() {
     animate(1920);
 }
 next.onclick = function() {
-    //由于上边定时器的作用，index会一直递增下去，我们只有5个小圆点，所以需要做出判断
+    //由于上边定时器的作用，index会一直递增下去，我们只有3个小圆点，所以需要做出判断
     index += 1;
     if (index > 3) {
         index = 1;
